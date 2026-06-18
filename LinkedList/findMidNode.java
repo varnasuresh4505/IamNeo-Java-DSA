@@ -9,7 +9,7 @@ class Node
         this.next = null;
     }
 }
-class LinkedListBasic 
+class findMidNode 
 {
     static Node head = null;
     public static void insertAtEnd(int data)
@@ -27,45 +27,7 @@ class LinkedListBasic
         }
         temp.next = newnode;
     }
-    public static void insertAtBegin(int data)
-    {
-        Node newnode = new Node(data);
-        if(head==null)
-        {
-            head = newnode;
-            return;
-        }
-        newnode.next = head;
-        head = newnode;
-    }
-    public static void deleteAtBegin()
-    {
-        if(head==null)
-        {
-            System.out.println("LinkedList is empty.");
-            return;
-        }
-        head = head.next;
-    }
-    public static void deleteAtEnd()
-    {
-        if(head==null)
-        {
-            System.out.println("LinkedList is empty.");
-            return;
-        }
-        if(head.next==null)
-        {
-            head = null;
-            return;
-        }
-        Node temp = head;
-        while(temp.next.next!=null)
-        {
-            temp = temp.next;
-        }
-        temp.next = null;
-    }
+    
     public static void findMid()
     {
         if(head==null)
@@ -121,3 +83,4 @@ class LinkedListBasic
         findMid();
     }
 }
+
