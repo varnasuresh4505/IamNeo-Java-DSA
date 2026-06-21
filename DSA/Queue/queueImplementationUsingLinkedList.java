@@ -17,7 +17,7 @@ class queueImplementationUsingLinkedList
     static Node rear = null;
     public static void insert(int data)
     {
-        Node newnode = new Node(data);
+        Node newnode = new Node(data); 
         if(front == null)
         {
             front=rear=newnode;
