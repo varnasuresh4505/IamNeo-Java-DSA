@@ -67,3 +67,7 @@ public class basicHashMapMethods
         System.out.println("Is HashMap empty now? " + map.isEmpty());
     }
 }
+
+
+//We can also compare two HashMaps are equal or not using equals() method.
+//Example: map1.equals(map2);   It will return true if both maps are equal otherwise false.
