@@ -8,9 +8,9 @@ public class basicHashMapMethods
         // Create a HashMap with Integer keys and String values
         HashMap<Integer, String> map = new HashMap<>();
 
-        // 1. put() - Insert key-value pairs 
-        map.put(1, "Apple");
-        map.put(2, "Banana");
+        // 1. put() - Insert key-value pairs  
+        map.put(1, "Apple"); 
+        map.put(2, "Banana"); 
         map.put(3, "Cherry");
         System.out.println("HashMap after put operations: " + map);
 
